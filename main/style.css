@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;600&family=Nunito:wght@300;600;700&family=Outfit:wght@400;700&family=Quicksand:wght@300;600&family=Raleway:ital,wght@0,100;0,400;1,700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 body {
-  padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  padding: 10% 0;
 }
 
 .wrapper--graphic {
@@ -22,9 +21,9 @@ body {
   background-size: contain;
 }
 .wrapper {
-  width: 348px;
-  height: 500px;
-  padding-top: 50px;
+  width: 320px;
+  height: 483px;
+  padding-top: 17px;
   /* margin-top: 288px; */
   display: flex;
   flex-direction: column;
@@ -36,6 +35,7 @@ body {
 }
 h1 {
   color: hsl(218, 44%, 22%);
+  font-size: 21px;
 }
 .wrapper--paragraph {
   font-size: 15px;
@@ -50,5 +50,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 10px 36px 0px 36px;
   /* padding: 0 10px; */
 }
